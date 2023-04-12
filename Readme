@@ -1,0 +1,15 @@
+** i 
+Time complexity : O(n)
+Space Complexity: O(n)
+
+
+
+** ii
+Time complexity : O(n)
+Space Complexity: O(n)
+
+** iii
+
+We can use the divide-and-conquer approch to divide the string on multiple substrings and hand each string to a machine to find the local longest substring and then collect the results and find our result. 
+
+The complexity will be n divided by the number of machine + the cost of communication between the machines for time.
